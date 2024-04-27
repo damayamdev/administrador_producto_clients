@@ -89,7 +89,6 @@ export async function deleteProduct(id: Product['id']) {
 
 
 export async function updateProductAvaulability(id: Product['id']){
-    console.log(id)
     try {
         await productApi.patch(`/products/${id}`)
     } catch (error) {
