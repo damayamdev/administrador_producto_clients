@@ -1,4 +1,4 @@
-import { safeParse, coerce, number, parse, boolean } from 'valibot'
+import { safeParse, coerce, number, parse } from 'valibot'
 import { DraftProductSchema, Product, ProductSchema, ProductsSchema } from '../types'
 import { productApi } from '../api'
 import { toBoolean } from '../utils'
